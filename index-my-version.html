@@ -13,16 +13,18 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="style-my-version.css">
 </head>
-<!-- Navbar -->
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div class="container">
             <a href="#" class="navbar-brand">Frontend Bootcamp</a>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-    <span class="navbar-toggler-icon"></span>
-</button>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
@@ -37,10 +39,29 @@
                     </li>
                 </ul>
             </div>
-
         </div>
-
     </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning">Web Developer</span>
+                    </h1>
+                    <p class="lead my-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Fusce blandit luctus diam, vitae varius tellus placerat
+                        et. Nam iaculis semper nulla, ut elementum metus
+                        pellentesque semper. Phasellus at fermentum justo.
+                        Curabitur nec hendrerit sapien.
+                    </p>
+                    <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+            </div>
+        </div>
+    </section>
 
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
