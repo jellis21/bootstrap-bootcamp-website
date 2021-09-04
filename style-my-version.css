@@ -1,0 +1,6 @@
+/* Custom media query for the newsletter input group */
+@media only screen and (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
